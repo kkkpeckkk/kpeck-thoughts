@@ -33,6 +33,14 @@ Use the language chosen in step 1 and the depth chosen in step 2. Apply these wr
 
 **Prose quality — CRITICAL.** Write as an ARTICLE, not a transcript transliteration. The transcript is raw spoken audio with filler ("um", "cioè", "praticamente"), false starts, repetitions, and run-on sentences — do NOT preserve those. Produce clean, publishable prose as if kpeck had sat down to write the article himself based on what he said out loud. Keep his voice and framings, but give them article-grade sentence structure. Think: "kpeck writing for a publication", not "transcript cleaned up line by line".
 
+**Formatting — CRITICAL.** The output must be scannable, not a wall of text.
+- Start with an H1 title (the article title).
+- Break the argument into sections with H2 subheadings (e.g. "Da dove veniamo", "Cosa cambia", "Il 10x con gli agent", "Dove si arriva", "E le banche?").
+- Keep paragraphs short — 3–5 sentences max. Break long thoughts across paragraphs.
+- Use **bold** for load-bearing framings the first time they appear (money stack, lipstick on a pig, wallet issuer and acquirer collapse, neobanks mesh network, investment bank migration).
+- Use empty lines between paragraphs and sections — generous whitespace.
+- Do NOT use one long run-on paragraph covering the whole article. Ever.
+
 **Grounding.** Every idea must come from the transcript below. Do not fill in generic knowledge, do not define terms using Wikipedia-style framings, do not generalize the title. If a point is not in the transcript, leave it out. (Grounding applies to substance, not phrasing — rephrase freely to produce good prose, but don't add claims.)
 
 **Preserve these phrases verbatim** (they are load-bearing in kpeck's argument):
@@ -44,9 +52,11 @@ M0, MoonPay, Iron, Bridge, Stripe, Paxos, BVNK, ZeroDev, Privy, Crossmint, Rain,
 **Style.** Blunt where the transcript is blunt, uncertain where it is uncertain. No AI filler, no "in today's landscape", no unnecessary transitions.
 
 **Depth specs:**
-- Short: thesis with the three main turns (where we come from, what changes with AI agents, the endpoint kpeck sees). At least 3 named actors. No images.
-- Medium: full argument walked diagram-by-diagram. Render the three diagrams inline (see URLs below).
-- Long: same as Medium plus doubts, open questions, and the future of traditional banks (investment-bank migration, 10–15 year AI adoption timeline). End by offering the references table.
+- Short (~500 words, 3 min): thesis with the three main turns (where we come from, what changes with AI agents, the endpoint kpeck sees). At least 3 named actors. Render the three diagrams inline, one per matching section.
+- Medium (~1200 words, 7 min): full argument walked section by section, with the diagrams inline. More detail on the actors and framings.
+- Long (~1800 words, 10 min): complete reasoning with doubts, open questions, and the future of traditional banks (investment-bank migration, 10–15 year AI adoption timeline). Diagrams inline. End by offering the references table.
+
+**Images are rendered inline in ALL depths** — Short just has less text between them. Place each image right before the section of the article it illustrates.
 
 **Diagrams** (inline for Medium and Long):
 
