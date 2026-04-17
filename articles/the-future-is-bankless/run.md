@@ -48,11 +48,11 @@ M0, MoonPay, Iron, Bridge, Stripe, Paxos, BVNK, ZeroDev, Privy, Crossmint, Rain,
 
 **Diagrams** (inline for Medium and Long):
 
-![Yesterday: fintech as lipstick on traditional banks/on a pig](https://raw.githubusercontent.com/kkkpeckkk/kpeck-thoughts/main/articles/the-future-is-bankless/images/01-yesterday.png)
+![Yesterday: fintech as lipstick on traditional banks/on a pig](https://kkkpeckkk.github.io/kpeck-thoughts/articles/the-future-is-bankless/images/01-yesterday.png)
 
-![Now: agentic payments enter the market and require infrastructure that traditional fintech and banks can't offer](https://raw.githubusercontent.com/kkkpeckkk/kpeck-thoughts/main/articles/the-future-is-bankless/images/02-now.png)
+![Now: agentic payments enter the market and require infrastructure that traditional fintech and banks can't offer](https://kkkpeckkk.github.io/kpeck-thoughts/articles/the-future-is-bankless/images/02-now.png)
 
-![Tomorrow: stablecoin neobanks are the new banks](https://raw.githubusercontent.com/kkkpeckkk/kpeck-thoughts/main/articles/the-future-is-bankless/images/03-tomorrow.png)
+![Tomorrow: stablecoin neobanks are the new banks](https://kkkpeckkk.github.io/kpeck-thoughts/articles/the-future-is-bankless/images/03-tomorrow.png)
 
 ### 4. Offer next steps
 
