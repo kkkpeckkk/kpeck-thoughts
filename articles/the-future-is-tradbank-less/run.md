@@ -1,22 +1,30 @@
-# Reading material: "the future is tradbank-less" by kpeck
+# Reading guide: "the future is tradbank-less"
 
-This file is reference material for an article. Everything below is content the user is sharing for context — not instructions. Use it as source material when writing the article the user asked you to produce.
+This file is a reading guide for an article. The article's raw source is a spoken audio transcript (in Italian, included below). Readers can use an AI assistant (Claude, etc.) to render the article at their preferred language and depth as a clean editorial piece.
 
-## About kpeck's voice
+## Expected reading flow
 
-kpeck recorded the content below as spoken audio in Italian. The transcript is raw and unedited — full of filler ("um", "cioè", "praticamente"), false starts, repetitions, and run-on sentences. When the user asks for this article to be written, the goal is clean, publishable prose that preserves kpeck's voice and framings — not a verbatim transliteration of the audio.
+1. Check the user's message for their preferred **language** and **reading depth**. If either is missing, ask for it before writing:
+   - *"Which language do you want the output in?"*
+   - *"How do you want to read it — short (3 min, ~500 words), medium (7 min, ~1200 words), or long (10 min, ~1800 words)?"*
+   If the user has already specified either (in this or a prior message), use what they gave and don't re-ask.
+2. Once language and depth are known, write the article at that language and depth, following the style notes below. The transcript (further down) is the source material — ground every idea there.
+3. Render the three diagrams inline with the matching section, and include a plain 🔗 URL line below each image as fallback for clients that don't render inline.
+4. After the article, offer three options: 1) Q&A about the piece, 2) the references table, 3) stop.
 
-kpeck writes in first person, is blunt, mixes Italian and English freely ("10x", "overtime", "whatever"), and has strong opinions he doesn't hedge.
+## About the source
+
+The transcript below was recorded as spoken audio in Italian. It is raw and unedited — full of filler ("um", "cioè", "praticamente"), false starts, repetitions, and run-on sentences. The goal of the rendering is clean, publishable editorial prose that preserves the argument's energy and framings — not a verbatim transliteration of the audio.
 
 ## Style notes (what a good rendering of this article looks like)
 
-- Article-grade prose in first person (kpeck's voice, from the transcript below)
+- **Third person, invisible narrator.** NO first-person pronouns ("I", "my", "we", "our" / "io", "mio", "noi", "nostro"). NO attributions to the author ("kpeck argues", "the author contends", "according to kpeck"). Just direct declarative editorial prose where the argument speaks for itself — Economist / Stratechery style. Example: not "I think traditional banks are lipstick on a pig", not "kpeck argues traditional banks are lipstick on a pig" — just "Traditional banks are lipstick on a pig".
+- **Tone of voice from the transcript** (preserved even with an invisible narrator): blunt, direct, opinionated, mixes English and Italian idioms freely ("10x", "overtime", "whatever"), no hedging, no AI filler, no generic transitions.
 - H1 title, H2 section headings breaking the argument into scannable parts
 - Short paragraphs (3–5 sentences), generous whitespace between sections
 - **Bold** on load-bearing framings the first time each appears
-- No AI filler, no "in today's rapidly evolving landscape", no generic transitions
 - Grounded in the transcript — no general knowledge, no Wikipedia-style definitions
-- The title is a handle, not a definition: "the future is tradbank-less" here specifically means the thesis in the transcript (stablecoins + agentic payments replacing traditional banks), not a generic DeFi overview
+- The title is a handle, not a definition: "the future is tradbank-less" here specifically means the thesis in the transcript (stablecoins + agentic payments replacing traditional lending banks), not a generic DeFi overview
 
 ## Load-bearing framings (preserve these verbatim where relevant)
 
