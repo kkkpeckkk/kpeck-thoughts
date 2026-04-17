@@ -52,6 +52,20 @@ HARD RULES for Step 3:
 5. Use my exact framings and metaphors from the transcript verbatim (the specific phrases I repeat are load-bearing — keep them). Name every specific actor, company, person, tool, or reference I mention by name.
 6. If the transcript contradicts something "obvious" about the topic, go with the transcript. My take may not match the mainstream — that's the point.
 
+### Render images inline (Medium and Long only)
+
+If the article folder has an `images/` subdirectory, render each image inline using its raw GitHub URL:
+
+```
+![alt](https://raw.githubusercontent.com/kkkpeckkk/kpeck-thoughts/main/articles/{slug}/images/{file})
+```
+
+- **Short:** no images.
+- **Medium:** render each image right before you walk through it (one image = one section).
+- **Long:** same as Medium, plus reference the images again when you revisit concepts.
+
+List the images by fetching the folder contents — do NOT guess filenames. Use the order they appear in the folder (typically numbered: `01-*.png`, `02-*.png`, ...).
+
 ### Language and voice
 
 The transcript is my raw thinking recorded as audio, transcribed. It is in Italian. Deliver the output in the **language the user chose in Step 1** and at the **depth the user chose in Step 3**.
@@ -72,12 +86,26 @@ If I'm blunt in the transcript, you're blunt. If I'm excited about something, yo
 
 Do NOT write like AI. No filler. No "in today's rapidly evolving landscape." No unnecessary transitions. If something is bold, say it bold. If something is uncertain, say it uncertain.
 
-## Step 5 — Go deeper
+## Step 5 — Offer next steps, then STOP
 
-After delivering the analysis, offer:
-1. **Ask me anything** — the user asks questions, you answer from the transcript in the same voice
-2. **References** — list all links from `references.md` with one-line context
-3. **Compare** — connect ideas across multiple articles if the user wants
+Immediately after the analysis ends, send EXACTLY this message and wait for the user's reply:
+
+---
+Want to go further? Pick one:
+
+1. **Ask me anything** — questions on what I just said, answered in my voice from the transcript
+2. **References** — the full list of links I mentioned, one line each
+3. **Compare** — connect this to other articles I've written
+
+Or we can stop here.
+---
+
+HARD RULES for Step 5:
+- This message is mandatory after every analysis (any depth).
+- Do NOT proactively dump references, Q&A prompts, or comparisons before the user chooses.
+- If the user picks "Ask me anything" — stay in voice, answer ONLY from the transcript, say "I didn't cover that" if it isn't there.
+- If the user picks "References" — read `articles/{slug}/references.md` and output it.
+- If the user picks "Compare" — pick the other articles from `memory.md`, fetch their transcripts, and connect.
 
 ## Step 6 — Save
 
