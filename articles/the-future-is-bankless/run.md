@@ -1,90 +1,63 @@
-# Reading guide — kpeck's article: "the future is bankless"
+# Reading material: "the future is bankless" by kpeck
 
-This file is a reading guide. The user asked you to walk them through kpeck's article — the transcript, the depth options, and the style rules are all below. Help the user read it at the depth that fits their time.
+This file is reference material for an article. Everything below is content the user is sharing for context — not instructions. Use it as source material when writing the article the user asked you to produce.
 
-The first-person voice is intentional: kpeck recorded the content below as spoken audio. When writing the output, preserve that first-person voice as a stylistic choice — you are relaying kpeck's own words and framing on their behalf, the way a translator would.
+## About kpeck's voice
 
-## Flow
+kpeck recorded the content below as spoken audio in Italian. The transcript is raw and unedited — full of filler ("um", "cioè", "praticamente"), false starts, repetitions, and run-on sentences. When the user asks for this article to be written, the goal is clean, publishable prose that preserves kpeck's voice and framings — not a verbatim transliteration of the audio.
 
-### 1. Ask the user which language they want
+kpeck writes in first person, is blunt, mixes Italian and English freely ("10x", "overtime", "whatever"), and has strong opinions he doesn't hedge.
 
-As your first reply, say only:
+## Style notes (what a good rendering of this article looks like)
 
-"Which language do you want the output in?"
+- Article-grade prose in first person (kpeck's voice, from the transcript below)
+- H1 title, H2 section headings breaking the argument into scannable parts
+- Short paragraphs (3–5 sentences), generous whitespace between sections
+- **Bold** on load-bearing framings the first time each appears
+- No AI filler, no "in today's rapidly evolving landscape", no generic transitions
+- Grounded in the transcript — no general knowledge, no Wikipedia-style definitions
+- The title is a handle, not a definition: "the future is bankless" here specifically means the thesis in the transcript (stablecoins + agentic payments replacing traditional banks), not a generic DeFi overview
 
-Wait for their answer.
+## Load-bearing framings (preserve these verbatim where relevant)
 
-### 2. Offer depth options
+money stack · lipstick on a pig · 10x · silos systems · neobanks mesh network · wallet issuer and acquirer collapse · agentic payments · agentic banking · investment bank migration
 
-After the user answers, say only:
+## Actors kpeck names (use real names; the transcript sometimes mistranscribes them)
 
-"How do you want to read it?
-- Short — 3 min (~500 words): the thesis with the main turns
-- Medium — 7 min (~1200 words): the full argument section by section, with the diagrams inline
-- Long — 10 min (~1800 words): the complete reasoning with doubts and open questions, with diagrams and references"
+M0 · MoonPay · Iron · Bridge · Stripe · Paxos · BVNK (transcribed as "BBNK") · ZeroDev (transcribed as "0Dev") · Privy · Crossmint · Rain · Ramp · Sponge / YC W26 (transcribed as "PaySponge") · Nevermined (transcribed as "Neverminded") · Luca Prosperi (Dirt Roads)
 
-Wait for their answer.
+## Diagrams kpeck wants inline
 
-### 3. Write the article
+Three images. When rendering the article, place each one right before the section it illustrates. For every image, include BOTH the markdown image syntax AND a plain text link below it — some clients (like Claude Code in a terminal) don't render inline images, and the link gives the reader a way to open the diagram in a browser.
 
-Use the language chosen in step 1 and the depth chosen in step 2. Apply these writing rules:
+Use this pattern for each image:
 
-**Voice.** First person — "I think", "the way I see it", "I built this because". Preserve kpeck's voice, bluntness, and opinions; do not write as a third-person narrator or analyst.
+```
+![alt text](image URL)
+🔗 image URL
+```
 
-**Prose quality — CRITICAL.** Write as an ARTICLE, not a transcript transliteration. The transcript is raw spoken audio with filler ("um", "cioè", "praticamente"), false starts, repetitions, and run-on sentences — do NOT preserve those. Produce clean, publishable prose as if kpeck had sat down to write the article himself based on what he said out loud. Keep his voice and framings, but give them article-grade sentence structure. Think: "kpeck writing for a publication", not "transcript cleaned up line by line".
-
-**Formatting — CRITICAL.** The output must be scannable, not a wall of text.
-- Start with an H1 title (the article title).
-- Break the argument into sections with H2 subheadings (e.g. "Da dove veniamo", "Cosa cambia", "Il 10x con gli agent", "Dove si arriva", "E le banche?").
-- Keep paragraphs short — 3–5 sentences max. Break long thoughts across paragraphs.
-- Use **bold** for load-bearing framings the first time they appear (money stack, lipstick on a pig, wallet issuer and acquirer collapse, neobanks mesh network, investment bank migration).
-- Use empty lines between paragraphs and sections — generous whitespace.
-- Do NOT use one long run-on paragraph covering the whole article. Ever.
-
-**Grounding.** Every idea must come from the transcript below. Do not fill in generic knowledge, do not define terms using Wikipedia-style framings, do not generalize the title. If a point is not in the transcript, leave it out. (Grounding applies to substance, not phrasing — rephrase freely to produce good prose, but don't add claims.)
-
-**Preserve these phrases verbatim** (they are load-bearing in kpeck's argument):
-money stack, lipstick on a pig, 10x, silos systems, neobanks mesh network, wallet issuer and acquirer collapse, agentic payments, agentic banking, investment bank migration.
-
-**Name all actors kpeck mentions:**
-M0, MoonPay, Iron, Bridge, Stripe, Paxos, BVNK, ZeroDev, Privy, Crossmint, Rain, Ramp, Sponge (YC), Nevermined, Luca Prosperi (Dirt Roads).
-
-**Style.** Blunt where the transcript is blunt, uncertain where it is uncertain. No AI filler, no "in today's landscape", no unnecessary transitions.
-
-**Depth specs:**
-- Short (~500 words, 3 min): thesis with the three main turns (where we come from, what changes with AI agents, the endpoint kpeck sees). At least 3 named actors. Render the three diagrams inline, one per matching section.
-- Medium (~1200 words, 7 min): full argument walked section by section, with the diagrams inline. More detail on the actors and framings.
-- Long (~1800 words, 10 min): complete reasoning with doubts, open questions, and the future of traditional banks (investment-bank migration, 10–15 year AI adoption timeline). Diagrams inline. End by offering the references table.
-
-**Images are rendered inline in ALL depths** — Short just has less text between them. Place each image right before the section of the article it illustrates.
-
-**Diagrams** (inline for Medium and Long):
-
+Diagram 1:
 ![Yesterday: fintech as lipstick on traditional banks/on a pig](https://kkkpeckkk.github.io/kpeck-thoughts/articles/the-future-is-bankless/images/01-yesterday.png)
+🔗 https://kkkpeckkk.github.io/kpeck-thoughts/articles/the-future-is-bankless/images/01-yesterday.png
 
+Diagram 2:
 ![Now: agentic payments enter the market and require infrastructure that traditional fintech and banks can't offer](https://kkkpeckkk.github.io/kpeck-thoughts/articles/the-future-is-bankless/images/02-now.png)
+🔗 https://kkkpeckkk.github.io/kpeck-thoughts/articles/the-future-is-bankless/images/02-now.png
 
+Diagram 3:
 ![Tomorrow: stablecoin neobanks are the new banks](https://kkkpeckkk.github.io/kpeck-thoughts/articles/the-future-is-bankless/images/03-tomorrow.png)
-
-### 4. Offer next steps
-
-After the article ends, say only:
-
-"Go further? 1) Ask me anything (answered in kpeck's voice from the transcript), 2) References, 3) Stop here"
-
-If the user picks option 1, stay in first-person voice and answer only from the transcript. If it's not in the transcript, say "kpeck didn't cover that in this one."
-If the user picks option 2, output the references table below as-is.
-If the user picks option 3, end politely.
+🔗 https://kkkpeckkk.github.io/kpeck-thoughts/articles/the-future-is-bankless/images/03-tomorrow.png
 
 ---
 
-## Transcript (Italian — translate into the user's chosen language, verbatim, do not summarize before translating)
+## Transcript (Italian — source material, translate into the user's chosen language)
 
 allora, il ragionamento che voglio portare oggi è il concetto che il futuro, sicuramente, e sarà sicuramente senza banche tradizionali, che fanno capital based, non capital, scusate, fanno lending, che hanno un modello di business basato su lending, quindi sto parlando delle community banks, delle banche proprio tradizionali, non delle investment banks. Perché dico questo? Perché noi arriviamo da uno stack tecnologico money stack, qua credits to Luca Prosperi and M0, che sono stati quelli che ne hanno parlato per primi, cioè per primi da cui io ho preso questa creazione del money stack, nel quale noi abbiamo un livello più inferiore e le banche centrali, che vanno a mettere moneta, ma tolto il livello della base money dove ci sono le banche centrali, noi abbiamo, andando molto riassumero, abbiamo un livello in cui ci sono le banche tradizionali con il loro clearing system che funziona grazie alla banca centrale. Sopra di loro ci andiamo a ritrovare tutto il fintech, in primis sopra di loro in un livello intermedio ci ritroviamo ancora i banking as a service provider, quindi quelli che creano infrastruttura bancaria e la danno as a service a aziende che non sono licenze, non sono fintech di partenza. E poi ci troviamo, Paralleli a questi esiste i card networks, i issuer di electronic money in Europa, i card issuers e i payment issuers, quindi tutto il fintech, tutto quello, la parte di banca che è stata costruita, la parte di pagamenti e di struttura finanziaria che è stata costruita dall'internet in poi, dal digitale in poi, e costruita come un lipstick on a pig, un top delle banche tradizionali. Quindi un rossetto lipstick on a pig, un rossetto su un maiale. Quello che sta cambiando adesso è che noi abbiamo una nuova tecnologia, che sono le stable coins. Le stable coins sono una moneta che adesso è regolamentata ed è allo stesso livello e comparabile come livello di sicurezza al deposito bancario, che però gira su blockchain, quindi su un database distribuito, chiunque può utilizzare quel genere di moneta, e che è direttamente collateralizzata, coperta solamente da titoli di Stato. Quindi non è generata questa moneta, non è creata dall'emissione di debito privato, ma è generata da debito pubblico, praticamente, solamente. Oltre che è un po' diversa quello, quello che una stable coin ha di migliore, e di diverso rispetto alle monete delle banche tradizionali, in primis, è che appunto, è direttamente collateralizzata da debito pubblico, quindi è molto simile a un Money Market Fund. E quindi uno, un qualcuno che mette stablecoin può direttamente emetterlo, non lo comprare titoli sul mercato, non per forza costruendo on top di una banca, come è stato costruito finora. E quindi si mettono allo stesso livello delle banche tradizionali, no? E poi la la differenza grande è che, Una stablecoin essendo tutta tecnologia blockchain, è più programmabile. Più programmabile vuol dire che ora tutte le banche hanno s-, sono dei silos systems, si dice, quindi dei sistemi isolati, con banking core diversi, magari ci sono dei macro provider, ma banking core diversi e difficilmente interoperabili. Una stablecoin su blockchain ha delle degli smart contract che fanno funzionare il suo co- come viene spostata e access, e e quindi permette di creare e essere utilizzate in diversi protocolli finanziari, anche in diversi mercati, di essere spostata molto più facilmente, fa eliminare tutti i problemi che ci sono nel sistema bancario tradizionale dove tecnologicamente i depositi bancari stanno su database diversi ed è molto difficile farli comunicare per comprare asset, scambiare, eccetera. Il fintech appunto per l'internet era nato come layer on top delle banche tradizionali per risolvere questo problema, ma le stablecoin Sono nativamente programmabili, quindi non hanno questo problema. Ora, um se noi andiamo a paragonare le stablecoin, e quindi quello che offrono con le banche tradizionali più il fintech tradizionale sopra, queste queste due parti qua diverse, in realtà vediamo che nei paesi sviluppati come l'Europa e gli Stati Uniti non cambia niente perché ormai il fintech è talmente sviluppato che appunto non ci fa sentire questo problema della mancanza di programmabilità per gli use case che abbiamo oggi. Però una cosa molto molto figa che sta capitando e che sto scendo è il fattore che...Il fattore è una cosa molto figa, il fattore che per gli use case odierni, appunto, non è possibile utilizzare, cioè non è possibile, non c'è un miglioramento di 10 volte migliore, 10 volte migliore di Tenex. Io parlo con un po' di inglesismo e un po' di italiano, perché è il mio vocabolario ormai, non c'è un miglioramento di 10 così tanto più grande rispetto che alla moneta tradizionale, usando le stablecoin. Quindi la gente non cambia, le corporates non cambiano. E questo è un punto. Però quando arriviamo all'utilizzo delle AI, e quindi andiamo a ipotizzare, ma a vedere il futuro, perché per me non è ipotizzare, per me è vederlo, perché è chiaro che il futuro è così. Il futuro in cui ogni essere umano, ogni volta che si interfaccia con un prodotto digitale, avrà sempre un agente AI nel mezzo, sia che se lo costruisca da solo, sia che in un futuro sia direttamente nell'hardware, whatever, ma ce l'avrà. E qua, in questo precise istante, quindi quando la gente AI deve andare a muovere poi il denaro, qua si vede quel gap di programmabilità che comunque è rimasto tra il fintech costruito on top delle banche e le stablecoin che ce l'hanno nativa. Quindi questo è il punto nel quale effettivamente le stablecoin sono a Tenex migliori della moneta tradizionale, perché costruire prodotti bancari per chiunque voglia spendere denaro tramite un AI agent. Cuori ricevere denaro, dai agent, farlo con raid tradizionali è una merda. um perché hai 1000 limiti. Hai limiti tecnologici, limiti di providers, limiti inizialmente ancora adesso anche di compliance, perché nei raid tradizionali la compliance adesso è strutturata per gli umani, non per gli agents, quindi non sai come gestire determinate cose, ti porti dietro delle features come magari i chargebacks, del mondo delle carte che per gli agent probabilmente potranno servire o non servire, ma dovranno essere utilizzate in maniera diversa, per esempio. E quindi, qua si apre un'occasione proprio ed è proprio quel momento in cui effettivamente può avvenire lo switch tra un mondo basato su banking tradizionale, fintech on top, a un mondo basato direttamente su stablecoin. E come è questo mondo, che poi nella seconda immagine, questo mondo è un mondo in cui noi andiamo a trovare al posto che del come nel mondo di ieri, delle banche tradizionali con on top tutti fintech che part- possono essere banking as a service, card networks, electronic money, payment quare, card issuers, noi andiamo a vedere un mondo in cui al livello 0, tra virgolette il livello più basso della piramide, troviamo diversi provider infrastrutturali come gli stablecoin issuers, service, gli orchestratori, chi fa account abstraction providers, e chi fa account abstraction providers, e chi fa integrazione con bank account perché potrebbe servire. Tutti questi attori adesso li nomino e possono essere una seconda referenza, stablecoin issuers as a service, vediamo M0 con Moonpay, vediamo Breach con Stripe, vediamo Paxos. Orchestratori vediamo Bridge, vediamo Iron, vediamo BBNK, e accanto a abstraction provider vediamo 0Dev, vediamo Privy, vediamo CrossMint, Carnetworks integrators, vediamo Rain, Mega account integrators, vediamo Moonpay con Iron, e anche Bridge. Quindi ci sono diversi attori infrastrutturali. Mentre on top noi andiamo a vedere chi vuole spendere un umano con un agente che vuole spendere e umani con agenti che vogliono ricevere denaro da agenti. In questo momento stiamo vedendo almeno come si sta muovendo il mercato, stiamo vedendo che si stanno formando delle sorte di attori per chi vuole spendere con agent che io chiamo in questo momento wallet issuers o wallet proxies possono essere chiamati. In cui um esempi sono PaySponge, una startup uscita da YC, oppure qua possiamo mettere degli incumbents come Ramp, che potrebbe spostarsi, oppure potrebbe essere una linea di prodotto di Ramp. um che praticamente permettono di creare wallet da assegnare al tuo agente, gestire tutta una serie di cose. um che è uno stack tecnologico comunque molto complicato perché la gente ragiona in maniera diversa dall'umano. E invece da chi vuole ricevere denaro da agenti vediamo nuovi attori come Neverminded, e oppure incumbents tipo Stripe che sta lavorando molto um con anche Machine Payment Protocol e sta cercando di aiutare i merchant a poter ricevere pagamenti da agenti. um e qua è un po' la situazione che vediamo adesso, no? Quindi E ci sono un po' di attori che vediamo tutti i tipologi di attori in questo nuovo mondo senza banche tradizionali che è molto più efficiente, anche molto più vicino al consumatore. Vediamo tutti gli attori infrastrutturali che ho nominato prima, più dopo torrifocalizzati sul consumatore finale, e che possono essere business, ma ci sono 1000 nicchie. Da una parte per chi vuole spendere e dall'altra parte per chi vuole ricevere. Per ora, molto simile al modello che c'era precedentemente con le carte, quindi card issuer, card acquirers. Per ora sembra molto così il concetto, però, è che overtime, quello che va a, che accade usando le stablecoin come tecnologia di partenza, è che con tutte queste forze che si alimentano, quindi chi dice vuole ricevere abilità a ricevere pagamenti, chi abilita a spendere, eccetera eccetera, e tutti iniziano sempre più a usare stablecoin. Magari all'inizio, appunto, io che ti abilito a spendere e tu che mi abiliti a ricevere, faccio dei work around per farti usare anche i reti tradizionali, anche se non sono efficienti, ma per fare determinate cose insieme alle stable, ma man mano tutti convergono verso usare più le stable perché costano meno, sono più efficienti e effettivamente danno il miglioramento che a legend serve, il miglioramento a programmabilità. E quindi overtime tutti usano le stablecoin, tutti escono dai card networks, tutti escono dai card networks, tutti escono da avere e diciamo depositi, ma ad usare stablecoin direttamente. Quindi quello che si va a verificare è che effettivamente non c'è più, non c'è più un mondo in cui c'è chi si occupa per chi vuole spendere denaro e tra virgolette finte con attori finanziari che si occupano per chi vuole spendere e per chi vuole ricevere, ma si formano queste nuove sorti di neobanks, neobanks quindi in cui un attore inizia a essere sia wallet issuer che acquirer, perché se io inizio a farti spendere in stablecoin, poi per me è anche molto facile, siccome gli stablecoin sono una tecnologia unica, gli altri iniziano anche a pagare in stablecoin, eccetera, a dirti anche, ma io ti permetto anche di ricevere. E questo è molto simile a quello che succede nel mondo delle neobanks, delle neobanks scusate, delle banche tradizionali, proprio una banca tradizionale quando tu vai in banca, ti permette di mandare bonifici e ricevere bonifici. E quella stessa cosa ma con le stablecoin. Quindi e senza più il need di avere un patch on top di queste neobanks in stablecoin, perché la moneta è già programmabile. E quindi andremo a vedere, secondo me, un mesh network di neobanks, quindi tante nuove neobanks che stanno sopra questi infra provider, che nomino ancora, che ho nominato prima. E queste neobanks saranno effettivamente le nuove banche. E che utilizzeranno tecnologia come stablecoin e saranno focalizzate su nicchie di mercato e secondo me saranno attori molto molto grandi, diventeranno. Con le persone che switcheranno, persone business che switcheranno sempre di più dalle banche tradizionali a queste, perché con un mondo, e questa è la mia assumption, ma il mio credo, che va verso agentic payments, agentic banking, ma va verso usare sempre un AI agent davanti, il mondo tradizionale, le banche tradizionali non basta, non si possono usare. Le stablecoin sono la soluzione. Detto ciò, perché per first principles, detto ciò, le banche tradizionali che fine fanno? Tante non avranno più clienti. Ovviamente un processo che è lungo, perché Io è un processo, dipende molto dall'adozione delle AI. Ovviamente ci vorranno 10-15 anni per l'adozione delle AI in maniera massiva anche a il non esperto, già digitale. Cioè pensiamoci a quanto tempo ci è voluto per l'adozione del digitale. Le AI forse un pochetto più veloce, però qua sono tutte previsioni, bisogna andare a capire e nessuno lo sa. Come si adatteranno le banche tradizionali in questo nuovo mondo qua? Dipende molto da, allora, dipende molto da come loro vogliono, sicuramente prenderanno clienti, perché andranno a queste nuove neobanks. Loro hanno due possibilità, mettersi in una delle due nuove categorie di attori finanziari che esisteranno nel money stack tecnologico. attori che fanno infrastrutture o neobanks. Allora, qua c'è da dire, io prima ho parlato di attori infrastrutturali, gli attori infrastrutturali saranno anche chi permette di fare credito, chi ti dà tecnologia per fare credito, ti connette con investitori, ci saranno tantissimi attori infrastrutturali un top delle neobanks. Un top, scusate, non un top, ma che, a quali neobanks si connettono per fare delle cose. um Io credo che le banche abbiano il mondo per ora della licenza e della distribuzione di capitali istituzionali. Quindi, sicuramente per me le banche che saranno più veloci a adattarsi saranno quelle che diventeranno più stile investment bank, nelle quali faranno la gestione del capitale molto capital based non lending based con trading desk che cercheranno di efficientare e tutta avranno gente forte dentro, molto più forte, molto finance e che quindi permetteranno a queste neobanks di andare a dare credito in una maniera efficiente, andare a muovere monete tra sé e blocchi diversi in maniera efficiente e di fare leverage nelle loro infrastrutture istituzionali, diciamo per gli asset. Quindi penso molto che qua le banche che resisteranno sono quelle che riusciranno a fare la migrazione investment banks e quindi diventerà attori infrastrutturali a livello di Moonpay, a livello di Stripe o tutte queste. E questa è un po' la mia view su tutto questo che ho detto. Il mio primo articolo l'ho fatto in questo modo, e potete leggere il transcript appunto, penso sia con tutto l'aislop che c'è. E non ha senso prendere questo transcript e farlo resumer da un AI mio personale per voi, perché sarebbe aislop. E è la cosa più genuina che si può fare effettivamente io che parlo, come se ti stessi parlando adesso a te davanti a me. E poi tu che puoi prenderti questo transcript, un skill che ti ho creato, anali e analizzarlo, e fare domande. Perché io ho un prodotto che attualmente userei, perché magari non ho il tempo di leggere tutti gli articoli, alcuni sono ai slop e mi scazzo subito, altri scritti bene, meritano di essere letti, ma magari ci vuole tempo, tutto molto veloce, se potessi analizzarli con il mio personal agent, che è strutturato su di me, sa le cose della mia azienda, sa le cose di me, sarebbe fichissimo per me. Quindi, questo è un tema e ci ho provato. Grazie.
 
 ---
 
-## References (share when the user picks option 2)
+## References (links kpeck mentioned — can be shared at the end of the reading)
 
 | # | Reference | What it's about |
 |---|---|---|
