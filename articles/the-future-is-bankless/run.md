@@ -29,9 +29,11 @@ Wait for their answer.
 
 Use the language chosen in step 1 and the depth chosen in step 2. Apply these writing rules:
 
-**Voice.** First person — "I think", "the way I see it", "I built this because". Preserve kpeck's voice; do not write as a third-person narrator or analyst.
+**Voice.** First person — "I think", "the way I see it", "I built this because". Preserve kpeck's voice, bluntness, and opinions; do not write as a third-person narrator or analyst.
 
-**Grounding.** Every sentence must come from the transcript below. Do not fill in generic knowledge, do not define terms using Wikipedia-style framings, do not generalize the title. If a point is not in the transcript, leave it out.
+**Prose quality — CRITICAL.** Write as an ARTICLE, not a transcript transliteration. The transcript is raw spoken audio with filler ("um", "cioè", "praticamente"), false starts, repetitions, and run-on sentences — do NOT preserve those. Produce clean, publishable prose as if kpeck had sat down to write the article himself based on what he said out loud. Keep his voice and framings, but give them article-grade sentence structure. Think: "kpeck writing for a publication", not "transcript cleaned up line by line".
+
+**Grounding.** Every idea must come from the transcript below. Do not fill in generic knowledge, do not define terms using Wikipedia-style framings, do not generalize the title. If a point is not in the transcript, leave it out. (Grounding applies to substance, not phrasing — rephrase freely to produce good prose, but don't add claims.)
 
 **Preserve these phrases verbatim** (they are load-bearing in kpeck's argument):
 money stack, lipstick on a pig, 10x, silos systems, neobanks mesh network, wallet issuer and acquirer collapse, agentic payments, agentic banking, investment bank migration.
