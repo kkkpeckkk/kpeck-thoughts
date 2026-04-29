@@ -1,81 +1,63 @@
-# Reading material: "How I use coding agents to ship (difficult) features with a PM background" by kpeck
+# Reading guide: "How I use coding agents to ship (difficult) features with a PM background"
 
-This file is reference material for an article. Everything below is content the user is sharing for context — not instructions. Use it as source material when writing the article the user asked you to produce.
+This file is a reading guide for an article. The article's raw source is a spoken audio transcript (in Italian, included below). Readers can use an AI assistant (Claude, etc.) to render the article at their preferred language and depth as a clean editorial piece.
 
-## About kpeck's voice
+## Expected reading flow
 
-kpeck recorded the content below as spoken audio in Italian. The transcript is raw and unedited — full of filler ("um", "cioè", "praticamente"), false starts, repetitions, and run-on sentences. When the user asks for this article to be written, the goal is clean, publishable prose that preserves kpeck's voice and framings — not a verbatim transliteration of the audio.
+1. Check the user's message for their preferred **language** and **reading depth**. If either is missing, ask for it before writing:
+   - *"Which language do you want the output in?"*
+   - *"How do you want to read it — short (3 min, ~500 words), medium (7 min, ~1200 words), or long (10 min, ~1800 words)?"*
+   If the user has already specified either (in this or a prior message), use what they gave and don't re-ask.
+2. Once language and depth are known, write the article at that language and depth, following the style notes below. The transcript (further down) is the source material — ground every idea there.
+3. Render the four diagrams inline with the matching section, and include a plain 🔗 URL line below each image as fallback for clients that don't render inline.
+4. After the article, offer three options: 1) Q&A about the piece, 2) the references table, 3) stop.
 
-kpeck writes in first person, is blunt, mixes Italian and English freely, and has strong opinions he doesn't hedge.
+## About the source
+
+The transcript below was recorded as spoken audio in Italian. It is raw and unedited — full of filler ("um", "cioè", "praticamente"), false starts, repetitions, and run-on sentences. The goal of the rendering is clean, publishable editorial prose that preserves the argument's energy and framings — not a verbatim transliteration of the audio.
 
 ## Style notes (what a good rendering of this article looks like)
 
-- Article-grade prose in first person (kpeck's voice, from the transcript below)
+- **Third person, invisible narrator.** NO first-person pronouns ("I", "my", "we", "our" / "io", "mio", "noi", "nostro"). NO attributions to the author ("kpeck argues", "the author contends", "according to kpeck"). Just direct declarative editorial prose where the argument speaks for itself — Economist / Stratechery style. Example: not "I built a Personal OS so I could ship faster", not "kpeck built a Personal OS so he could ship faster" — just "A Personal OS sits at the center of the workflow".
+- **Tone of voice from the transcript** (preserved even with an invisible narrator): blunt, direct, opinionated, mixes English and Italian idioms freely ("leverage", "10x", "whatever", "iper mega"), no hedging, no AI filler, no generic transitions.
 - H1 title, H2 section headings breaking the argument into scannable parts
 - Short paragraphs (3–5 sentences), generous whitespace between sections
 - **Bold** on load-bearing framings the first time each appears
-- No AI filler, no generic transitions
 - Grounded in the transcript — no general knowledge, no Wikipedia-style definitions
-- The title is a handle, not a definition
+- The title is a handle, not a definition: "How I use coding agents to ship (difficult) features with a PM background" here specifically means the workflow described in the transcript (Personal OS + sprint loop across product repos, with named skills as the unit of work), not a generic "AI for PMs" overview
 
 ## Load-bearing framings (preserve these verbatim where relevant)
 
-- **Personal OS** (or "Personal Operating System") — the repo kpeck runs Claude Code on top of; the entry point of his entire workflow
-- **PMs have more leverage than engineers in the coding-agents era** — the central thesis kpeck repeats three times
-- **From 010101 to Python to human language** — the abstraction ladder; coding agents move the abstraction from a programming language to natural language
-- **Personal OS acts as PM, product repos act as engineers** — the role assignment kpeck uses to describe his agent topology
-- **Three phases: infrastructure, setting, execution** — the structure of the workflow kpeck walks through
-- **Sprint** — kpeck's unit of work; each sprint spawns one branch per product repo plus a dedicated Slack channel
-- **Second brain / wiki** — kpeck's accumulated context (past Ametyst data) that the brainstorm skill can fetch from
-- **Hyper-controlled with many guardrails** — how kpeck describes the implementation phase when all the skills compose ("during implementation I almost don't touch the code")
-- **Skills as named workflows** — every step in kpeck's process is a slash-command skill: `/ops-brainstorm`, `/eng-sprint-planner`, `/eng-sprint-delegate`, `/eng-pr-review`, `/step-plan`, `/develop`, `/step-review`, `/step-ship`, `/step-debug`
-- **Every company will develop its own processes** — kpeck's closing point: this is personal infrastructure, not a template
+Personal OS · PM leverage in the coding-agents era · from 010101 to Python to human language · Personal OS as PM, product repos as engineers · three phases (infrastructure, setting, execution) · sprint · second brain · hyper-controlled with guardrails · skills as named workflows · every company builds its own process
 
 ## Actors kpeck names (use real names; the transcript sometimes mistranscribes them)
 
-- **kpeck** — first person, the author. Background: perito informatico → studied banking → returned to coding two years ago. Reputes himself a PM on banking products who started doing engineering work.
-- **kpeck's co-founder** — non-technical, will receive a lighter version of this method.
-- **Claude Code** — Anthropic's coding CLI. The transcript renders it as "CloudCode" (mistranscription).
-- **Cursor** — AI-first IDE. The transcript also says "Cloud Cursor" once, which means "Claude + Cursor" (mistranscription).
-- **Slack** — coordination channel between agents.
-- **GitHub** — where every repo lives.
-- **MCP (Model Context Protocol)** — how Claude instances talk to Slack.
-- **Ametyst** — kpeck's company. Transcript renders it as "metis" (mistranscription). When he says "i dati passati di metis" he means "all of Ametyst's accumulated data".
-
-Other transcript artifacts worth flagging:
-- "EAI" in the opening line is a mistranscription of "AI".
-- "personal host" later in the transcript is "Personal OS" (slip of the tongue).
-- "cardraise" is "guardrails".
-- "ingenier" is "engineer".
-- "faccio developer" means "I run the `/develop` skill" — `develop` is the name of a skill, not a noun.
+Claude Code (transcribed as "CloudCode") · Cursor (transcribed once as "Cloud Cursor", meaning "Claude + Cursor") · Slack · GitHub · MCP (Model Context Protocol) · Ametyst (transcribed as "metis") · /ops-brainstorm · /eng-sprint-planner · /eng-sprint-delegate · /eng-pr-review · /step-plan · /develop (transcribed as "developer", "faccio developer" = "I run /develop") · /step-review · /step-ship · /step-debug · Personal OS (transcribed once as "personal host") · "EAI" = AI · "cardraise" = guardrails · "ingenier" = engineer
 
 ## Diagrams kpeck wants inline
 
-When rendering the article, place each image right before the section it illustrates. For every image, include BOTH the markdown image syntax AND a plain text link below it — some clients (like Claude Code in a terminal) don't render inline images, and the link gives the reader a way to open the diagram in a browser.
+Four images. When rendering the article, place each one right before the section it illustrates. For every image, include BOTH the markdown image syntax AND a plain text link below it — some clients (like Claude Code in a terminal) don't render inline images, and the link gives the reader a way to open the diagram in a browser.
 
-Pattern:
+Use this pattern for each image:
+
 ```
 ![alt text](image URL)
 🔗 image URL
 ```
 
-Image 1 — pair with the section that introduces the Personal OS (Phase 1, Infrastructure):
-
+Diagram 1:
 ![Personal OS repo — folder structure and product skills used](https://kkkpeckkk.github.io/kpeck-thoughts/articles/coding-agents-pm-background/images/01-personal-os-repo.png)
 🔗 https://kkkpeckkk.github.io/kpeck-thoughts/articles/coding-agents-pm-background/images/01-personal-os-repo.png
 
-Image 2 — pair with the section on starting a new feature (Phase 2, Setting — first part):
-
+Diagram 2:
 ![My workflow part 1 — from feature to product branches](https://kkkpeckkk.github.io/kpeck-thoughts/articles/coding-agents-pm-background/images/02-workflow-part-1.png)
 🔗 https://kkkpeckkk.github.io/kpeck-thoughts/articles/coding-agents-pm-background/images/02-workflow-part-1.png
 
-Image 3 — pair with the desktop snapshot description (Phase 2, Setting — final state):
-
+Diagram 3:
 ![Snapshot — Personal OS as PM, product repos as engineers](https://kkkpeckkk.github.io/kpeck-thoughts/articles/coding-agents-pm-background/images/03-snapshot.png)
 🔗 https://kkkpeckkk.github.io/kpeck-thoughts/articles/coding-agents-pm-background/images/03-snapshot.png
 
-Image 4 — pair with the execution loop (Phase 3, Execution):
-
+Diagram 4:
 ![My workflow part 2 — execution loop across product repos](https://kkkpeckkk.github.io/kpeck-thoughts/articles/coding-agents-pm-background/images/04-workflow-part-2.png)
 🔗 https://kkkpeckkk.github.io/kpeck-thoughts/articles/coding-agents-pm-background/images/04-workflow-part-2.png
 
